@@ -1,0 +1,393 @@
+body{
+    margin: 0;
+    overflow-x: hidden
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.header{
+    width: 100%; 
+    height: 120px; 
+    background-image: linear-gradient(0, #f63, #f53d2d);
+    font-size: 100%;
+    font-family: 'Noto Sans' , sans-serif;
+    color: white
+}
+
+.header--top{
+    width: 100%;
+    height: 30px;
+    font-family: 'Roboto', sans-serif
+}
+
+.navbar__left{
+    color: white;
+    font-size: 12px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    margin-left: 280px;
+  }
+  
+  
+  .navbar__right {
+   margin-bottom: 10px;
+   text-align: right;
+   color: white;
+   font-size: 12px;
+   right: 0;
+   top: 0;
+   position: absolute;
+   margin-right: 350px;
+  }
+  
+  .logo {
+    max-width: 200%;
+    height: auto;
+    width: 10%;
+    margin-left: 280px;
+    margin-top: 10px
+  }
+  .cartlogo {
+      max-width: 200%;
+      height: auto;
+      width: 30px;
+      margin-left: 850px;
+      margin-bottom: 20px;
+  }
+
+  .search-container {
+    width: 70%; 
+    display: flex;
+    max-width: 900px; 
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 380px;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    width: 60px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    background-color: #ff5005;
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 51px;
+    right: 460px;
+  }
+
+  .category {
+    margin: 20px 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: -20px;
+    font-size:81%;
+    margin-left: 38px
+  }
+  
+  .category-item {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .christmas-deal{
+    width: 780px;
+    margin-top: 10px;
+    margin-left: 280px;
+  }
+  .milk{
+    width: 380px;
+    position: absolute;
+    margin-top: 129px;
+    margin-left: 5px
+  }
+  .razor{
+    width: 380px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px
+  }
+
+.coins{
+  text-align: center;
+  font-size: 70%;
+  margin-top: 30px;
+  margin-left: -60%;
+  font-family: 'Roboto', sans-serif
+}
+.shipping{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.77px;
+  margin-left: -46.88%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.mall{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: -33.88%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.coupon{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: -21.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.nine{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: -9.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.beauty{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.77px;
+  margin-left: 2.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.style{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -75.77px;
+  margin-left: 14.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.market{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.99px;
+  margin-left: 26.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.gadget{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -74.77px;
+  margin-left: 37.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.partner{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -76.77px;
+  margin-left: 48.66%;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+.items{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    margin-top: 500px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: -1px;
+    bottom: 5px;
+    border: 5px solid white;
+    height: 60%
+    }    
+.categories{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    position: relative;
+    top: 7px;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    border: 2px solid white;
+    height: 60%;
+    margin-left:15%;
+    margin-right:15%;
+    color: #757575;
+    text-align: top left;
+    font-family: 'Roboto', sans-serif;
+    }
+  .menapparel{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .mobilegadgets{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .mobileaccessories{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .entertainment{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .babies{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .living{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .groceries{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .toys{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .womenbag{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .womenaccessories{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .womenapparel{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .healthcare{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .fragrances{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .appliance{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .laptop{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .camera{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .sports{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .menaccessories{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .menshoes{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  .motors{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+  }
+  
+  .category-item-container {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  }
+
+  .flashdeal {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    position: relative;
+    top: 7px;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    border: 2px solid white;
+    height: 60%;
+    margin-left:15%;
+    margin-right:15%;
+  }
+
+  .seeall {
+    color: #ee555c;
+    margin-left: 1px;
+    grid-gap: 510px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Roboto', sans-serif;
+  }
+  .flahimages {
+    display: grid;
+    grid-template-columns: 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%;
+  }
+.voucher image {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
